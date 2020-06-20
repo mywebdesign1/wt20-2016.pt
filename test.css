@@ -1,0 +1,105 @@
+body {
+    background: rgba(240,242,250,0.3);
+}
+header {
+    background: green;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: black;
+    background: white;
+    text-align: center
+}
+th,
+td {
+    border: 2px solid #cecfd5;
+    padding: 20px 40px;
+}
+#wi {
+    color: Maroon;
+}
+#eng {
+    color: rgb(0,0,144);
+}
+#sa {
+    color: lime;
+}
+#sl {
+    color: rgb(209,171,10);
+}
+#afg {
+    color: black
+}
+#nz {
+    color: black;
+}
+#ind {
+    color: orange;
+}
+#aus {
+    color: yellow;
+}
+#pak {
+    color: rgb(0,120,0);
+}
+#ban {
+    color: rgb(59,214,129);
+}
+.team {
+    font-weight: bold;
+    font-size: 18px;
+}
+#h1 {
+    text-align: center;
+    color: white;
+}
+.grp {
+    margin-left: 2.3in;
+}
+.grpb {
+    margin-left: 0in;
+}
+.team-logo {
+    width: 23px;
+    height: auto;
+    position: absolute;
+    left: 355px;
+}
+#wi-logo, #nz-logo {
+    position: absolute;
+    top: 228px;
+}
+#eng-logo, #ind-logo {
+    position: absolute;
+    top: 291px;
+}
+#sa-logo, #aus-logo {
+    position: absolute;
+    top: 354px;
+}
+#sl-logo, #pak-logo {
+    position: absolute;
+    top: 417px;
+}
+#afg-logo, #ban-logo {
+    position: absolute;
+    top: 480px;
+}
+button {
+  padding: 5px 10px;
+  color: white;
+  background: black;
+  border: none;
+}
+button:hover {
+  background: orange;
+}
+button:focus {
+  background: yellow;
+  outline: none;
+}
+a:link {
+  text-decoration: none;
+}
